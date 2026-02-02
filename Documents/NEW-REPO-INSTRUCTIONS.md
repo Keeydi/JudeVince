@@ -16,13 +16,14 @@ This project has been reworked as **BantayPlaka** (new project, not ViolationLed
    ```
    Default login: `admin@bantayplaka.local` / `BantayPlaka123!`
 
-2. **Push to your new remote** (from project root):
+2. **Push to repo named BantayPlaka** (from project root):
+   - Create a new empty repo on GitHub/GitLab named **BantayPlaka** (do not add README).
+   - Then run:
    ```bash
-   git remote add origin <your-new-repo-url>
-   git add .
-   git commit -m "Initial commit: BantayPlaka - Admin and Guard users only"
+   git remote add origin https://github.com/YOUR_USERNAME/BantayPlaka.git
    git branch -M main
    git push -u origin main
    ```
+   (Use your actual repo URL if different.)
 
 3. **Fresh database**: Delete `server/parking.db` (if present) before first run so the server creates a new DB with the BantayPlaka schema (admin/guard roles only).
