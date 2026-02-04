@@ -4,6 +4,8 @@ A parking monitoring system with camera surveillance, vehicle tracking, and viol
 
 **Users:** Admin and Guard only. Create accounts with `cd server && node setup-accounts.js` (see [Documents/NEW-REPO-INSTRUCTIONS.md](Documents/NEW-REPO-INSTRUCTIONS.md) for pushing to a new repo).
 
+**📖 Detailed installation (step-by-step):** [Documents/INSTALLATION-DETAILED.md](Documents/INSTALLATION-DETAILED.md)
+
 ## Tech Stack
 
 ### Frontend
