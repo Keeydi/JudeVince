@@ -12,7 +12,7 @@ try {
   `).all();
 
   if (users.length === 0) {
-    console.log('No users in database. Run: node create-admin-user.js');
+    console.log('No users in database. Run: node setup-accounts.js');
     process.exit(0);
   }
 
@@ -23,7 +23,7 @@ try {
     console.log('');
   });
   console.log('Passwords are stored as SHA-256 hashes (not recoverable).');
-  console.log('Roles: admin | guard. Create admin: node create-admin-user.js');
+  console.log('Roles: admin | guard. Create accounts: node setup-accounts.js');
   process.exit(0);
 } catch (err) {
   console.error('Error:', err.message);

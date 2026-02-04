@@ -1,11 +1,10 @@
 {
-  "name": "park-smart-monitor-server",
+  "name": "bantayplaka-server",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "node --watch server.js",
-    "start": "node server.js",
-    "clean:images": "node clear_captured_images.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

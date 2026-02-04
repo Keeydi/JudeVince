@@ -2,7 +2,7 @@
 
 A parking monitoring system with camera surveillance, vehicle tracking, and violation management.
 
-**Users:** Admin and Guard only. Create the first admin with `cd server && node create-admin-user.js` (see [Documents/NEW-REPO-INSTRUCTIONS.md](Documents/NEW-REPO-INSTRUCTIONS.md) for pushing to a new repo).
+**Users:** Admin and Guard only. Create accounts with `cd server && node setup-accounts.js` (see [Documents/NEW-REPO-INSTRUCTIONS.md](Documents/NEW-REPO-INSTRUCTIONS.md) for pushing to a new repo).
 
 ## Tech Stack
 

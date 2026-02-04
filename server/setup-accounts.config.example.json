@@ -1,0 +1,19 @@
+{
+  "admin": {
+    "email": "admin@bantayplaka.local",
+    "password": "BantayPlaka123!",
+    "name": "Admin"
+  },
+  "guards": [
+    {
+      "email": "guard1@bantayplaka.local",
+      "password": "Guard123!",
+      "name": "Guard One"
+    },
+    {
+      "email": "guard2@bantayplaka.local",
+      "password": "Guard123!",
+      "name": "Guard Two"
+    }
+  ]
+}

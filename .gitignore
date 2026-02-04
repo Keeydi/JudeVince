@@ -15,6 +15,9 @@ build/
 .env.local
 .env.production
 
+# Client account setup (contains passwords)
+server/setup-accounts.config.json
+
 # IDE
 .vscode/
 .idea/

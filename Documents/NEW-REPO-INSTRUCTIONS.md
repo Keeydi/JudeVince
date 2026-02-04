@@ -12,7 +12,7 @@ This project has been reworked as **BantayPlaka** (new project, not ViolationLed
 1. **Create first admin** (from `server/`):
    ```bash
    cd server
-   node create-admin-user.js
+   node setup-accounts.js
    ```
    Default login: `admin@bantayplaka.local` / `BantayPlaka123!`
 
